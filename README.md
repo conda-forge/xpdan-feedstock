@@ -14,7 +14,7 @@ Summary: Analysis Tools for XPD
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/xpdan-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/xpdan-feedstock)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/xpdAn-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/xpdAn-feedstock)
 
 Current release info
 ====================
