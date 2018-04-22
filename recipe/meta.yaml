@@ -37,7 +37,7 @@ requirements:
     - shed
     - xpdview
     - ophyd
-
+    - xpdconf
 
 test:
   imports:
