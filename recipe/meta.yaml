@@ -1,6 +1,6 @@
 {% set name = "xpdan" %}
-{% set version = "0.3.1" %}
-{% set sha256 = "ae8d4e2845061c1f4df544150913ac51c488b9f9a1e4f70b5b9f02c893b1a0b6" %}
+{% set version = "0.3.2" %}
+{% set sha256 = "a8a48e72d813942e8950228f15c97c8da696756eb55d844defe72a6bdf23e2c9" %}
 
 package:
   name: {{ name|lower }}
