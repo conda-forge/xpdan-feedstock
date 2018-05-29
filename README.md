@@ -14,12 +14,15 @@ Summary: Analysis Tools for XPD
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/xpdAn-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/xpdAn-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/xpdan-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/xpdan-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/xpdan/badges/version.svg)](https://anaconda.org/conda-forge/xpdan)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/xpdan/badges/downloads.svg)](https://anaconda.org/conda-forge/xpdan)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-xpdan-green.svg)](https://anaconda.org/conda-forge/xpdan) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/xpdan.svg)](https://anaconda.org/conda-forge/xpdan) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/xpdan.svg)](https://anaconda.org/conda-forge/xpdan) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/xpdan.svg)](https://anaconda.org/conda-forge/xpdan) |
 
 Installing xpdan
 ================
