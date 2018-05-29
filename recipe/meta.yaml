@@ -42,7 +42,6 @@ requirements:
 test:
   imports:
     - xpdan
-    - xpdan.tools
     - xpdan.pipelines
 
 about:
