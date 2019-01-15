@@ -27,7 +27,7 @@ requirements:
     - matplotlib
     - pyyaml
     - scikit-beam
-    - pyfai
+    - pyfai ==0.15
     - pyxdameraulevenshtein
     - xray-vision
     - databroker
