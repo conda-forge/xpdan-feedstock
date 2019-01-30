@@ -32,7 +32,7 @@ requirements:
     - xray-vision
     - databroker
     - bluesky
-    - streamz_ext
+    - rapidz
     - xpdsim
     - shed
     - xpdview
