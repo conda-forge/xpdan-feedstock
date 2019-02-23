@@ -19,7 +19,7 @@ Current build status
 ====================
 
 All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/xpdAn-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/xpdAn-feedstock)
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/xpdan-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/xpdan-feedstock)
 
 Current release info
 ====================
