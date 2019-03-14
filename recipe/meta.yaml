@@ -39,6 +39,7 @@ requirements:
     - ophyd
     - xpdconf
     - xpdtools
+    - mayavi
 
 test:
   imports:
