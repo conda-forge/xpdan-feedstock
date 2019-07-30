@@ -13,8 +13,18 @@ source:
 
 build:
   noarch: python
-  number: 1 
+  number: 2 
   script: python -m pip install --no-deps --ignore-installed .
+  entry_points:
+    - save_server = xpdan.startup.save_server:run_main
+    - db_server = xpdan.startup.db_server:run_main
+    - portable_db_server = xpdan.startup.portable_db_server:run_main
+    - viz_server = xpdan.startup.viz_server:run_main
+    - analysis_server = xpdan.startup.analysis_server:run_main
+    - qoi_server = xpdan.startup.qoi_server:run_main
+    - tomo_server = xpdan.startup.tomo_server:run_main
+    - peak_server = xpdan.startup.peak_server:run_main
+    - intensity_server = xpdan.startup.intensity_server:run_main
 
 requirements:
   build:
@@ -45,6 +55,16 @@ test:
   imports:
     - xpdan
     - xpdan.pipelines
+  commands:
+    - save_server -- --help
+    - db_server -- --help
+    - portable_db_server -- --help
+    - viz_server -- --help
+    - analysis_server -- --help
+    - qoi_server -- --help
+    - tomo_server -- --help
+    - peak_server -- --help
+    - intensity_server -- --help
 
 about:
   home: http://github.com/xpdAcq/xpdAn
