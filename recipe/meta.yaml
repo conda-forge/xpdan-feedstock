@@ -56,15 +56,15 @@ test:
     - xpdan
     - xpdan.pipelines
   commands:
-    - save_server
-    - db_server
-    - portable_db_server
-    - viz_server
-    - analysis_server
-    - qoi_server
-    - tomo_server
-    - peak_server
-    - intensity_server
+    - save_server -- --help
+    - db_server -- --help
+    - portable_db_server -- --help
+    - viz_server -- --help
+    - analysis_server -- --help
+    - qoi_server -- --help
+    - tomo_server -- --help
+    - peak_server -- --help
+    - intensity_server -- --help
 
 about:
   home: http://github.com/xpdAcq/xpdAn
