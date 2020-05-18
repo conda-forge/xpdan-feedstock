@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 2 
+  number: 3
   script: python -m pip install --no-deps --ignore-installed .
   entry_points:
     - save_server = xpdan.startup.save_server:run_main
@@ -34,7 +34,7 @@ requirements:
     - python >=3
     - numpy
     - scipy
-    - matplotlib
+    - matplotlib-base
     - pyyaml
     - scikit-beam
     - pyfai
